@@ -1,0 +1,211 @@
+*{margin:0; padding:0}
+body{
+	
+	transition: all 0.5s ease;
+}
+h3,h4,h5,h6{
+	background:#F8F8F8;
+	font-weight:normal;
+	margin:9px 0;
+	padding:15px 0;
+	border-left: 5px solid #41c84E;
+	
+	
+}
+h1{
+	
+	font-weight:normal;
+	margin:10px 0;
+	
+}
+h2{
+	
+	text-transform:uppercase;
+	text-align:center;
+}
+a{
+	text-decoration:none;
+	color: grey;
+	
+	
+}
+
+p{
+	line-height:30px;
+	
+}
+.link {
+    margin-top: 40px;
+    height: 30px;
+    /* overflow: hidden; */
+}
+.link a{
+	  text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid grey;
+    border-radius: 25px;
+	color:grey;
+}
+ .fix{
+	 overflow:hidden;
+ }
+ .fullwrap{
+	 width:100%;
+    overflow:hidden;
+ }
+.wrap{
+	width:980px;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	 overflow:hidden;
+}
+
+.bl{
+	margin-left:2px;
+	margin-top:44px;
+}
+
+.lastfoot  ul li{
+	display:inline-block;
+}
+.lastfoot{
+	
+	text-align:center;
+}
+.header{
+	background-color:#282828;
+	color:white;
+	height:128px;
+}
+.hbg{
+		background-color:#282828;
+}
+.header_l{
+	width:430px;
+	float:left;
+	overflow:hidden;
+}
+.header_r{
+	width:550px;
+	overflow:hidden;
+	
+	
+}
+
+.menu ul {
+	
+	float:right;
+	height: 128px;
+}
+.menu ul li{
+	float:left;
+	list-style-type:none;
+	height: 128px;
+	border-left:1px solid #1E1E1E;
+}
+.menu ul li:last-child{
+	border-right:1px solid #1E1E1E;
+}
+
+.menu ul li a{
+	display:block;
+	    padding: 52px 42px;
+		color:white;
+	
+	
+}
+.menu ul li:hover a{
+	border-bottom: 5px solid #41c84E;
+	color:#41c84E;
+}
+.article{
+	width:620px;
+	
+	float:left;
+	margin-right:20px;
+}
+.single{
+	width:620px;
+	margin-top:80px;
+}
+
+.sidebar{
+	margin-top:80px;
+	
+	
+}
+.singlebar{
+	width:280px;
+	margin-top:44px;
+	float:right;
+		
+	
+}
+
+.h3{
+	padding-left:24px;
+		
+}
+.left{
+	margin-left:20px;
+	padding-left:25px;
+	margin-top:25px;
+	float:left;
+	color:#999999;
+	background:url(arr.png) no-repeat;
+	background-position:left;
+	
+}
+
+.right{
+	margin-right:20px;
+	padding-right:25px;
+	margin-top:25px;
+	float:right;
+	color:#999999;
+	background:url(arrowright.png) no-repeat;
+	background-position:right;
+}
+.footbg{
+	background:#F8F8F8
+}
+.middle_footer{
+margin:30px 0;
+text-align:center;	
+}
+.lastfoot{
+	margin-bottom:80px;
+	
+}
+.lastfoot img{
+	width:40px;
+	height:40px;
+}
+.lastfoot a{
+	display:block;
+}
+.lastfoot ul li a{
+	background:url(facebookbw.png) no-repeat;
+	width:40px;
+	height:40px;
+}
+
+.lastfoot ul li a:hover {
+	
+	background:url(facebook.png) no-repeat;
+	width:40px;
+	height:40px;
+}
+input{width:274px;
+	height:50px;}
+.in input[type="email"]{
+	background:url(email.png) no-repeat;
+background-position:right;
+cursor:pointer;
+right:20px;
+	
+	
+	width:274px;
+	height:50px;
+}
